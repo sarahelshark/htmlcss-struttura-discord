@@ -46,7 +46,6 @@ body{
 }
 
 .debug .jumbotron{
-    height: 80%;
     background-color: rgb(246, 60, 91);
     height: 15rem;
     border: dotted;
@@ -82,8 +81,14 @@ body{
 }
 
 
-/*HEADER*/
+.debug .last{
+    
+    background-color: rgb(68, 128, 48);
+    height: 20rem;
+    border: dotted;
+}
 
+/*HEADER*/
 
 
 .flex-container{
@@ -153,4 +158,9 @@ body{
 
 /*THIRD CONTAINER*/
 
-
+.last{
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+}
