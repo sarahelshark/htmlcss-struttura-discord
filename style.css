@@ -44,8 +44,11 @@ body{
 .debug .jumbotron{
     height: 80%;
     background-color: rgb(246, 60, 91);
-    height: 5.5rem;
+    height: 15rem;
+    border: dotted;
 }
+
+
 
 /*HEADER*/
 
@@ -71,7 +74,7 @@ body{
     width: 20%;
 }
 
-.row>span{
+.flex-container>span{
     text-align: center;
 }
 
