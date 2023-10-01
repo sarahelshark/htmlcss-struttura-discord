@@ -1,0 +1,72 @@
+/*common*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+
+.row {
+    padding: 1rem;
+}
+
+/*debug*/
+
+.debug .logo {
+    border: 5px dotted rgb(50, 73, 205);
+    width: 20%;
+    background-color: rgb(247, 172, 34);
+}
+.debug .link{
+    border: 5px dotted palevioletred;
+    width: 40%;
+    background-color: rgb(247, 172, 34);
+
+}
+.debug .login{
+    border: 5px dotted brown;
+    width: 20%;
+    background-color: rgb(247, 172, 34);
+}
+
+
+.debug body{
+    max-width: 1000px;
+}
+
+
+/*HEADER*/
+
+.container{
+    background-color: rgb(140, 208, 231);
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logo {
+    width: 20%;
+}
+
+.link{
+    width: 40%;
+
+}
+
+ .login{
+    width: 20%;
+}
+
+.row>span{
+    text-align: center;
+}
+
+
+/**/
+
+
