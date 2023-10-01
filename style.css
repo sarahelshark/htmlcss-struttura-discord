@@ -48,6 +48,27 @@ body{
     border: dotted;
 }
 
+.debug .row1{
+    background-color: violet;
+    height: 15rem;
+    border: dotted;
+}
+.debug .row2{
+    background-color:#ededed;
+    height: 15rem;
+    border: dotted;
+}
+
+.debug .col-4 {
+    border: dotted;
+    background-color: blue;
+}
+
+.debug .col-12 {
+    border: dotted;
+    background-color: brown;
+}
+
 
 
 /*HEADER*/
@@ -57,6 +78,7 @@ body{
 }
 
 .flex-container{
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -87,5 +109,51 @@ body{
     justify-content: center;
 }
 
+/* FIRST CONTAINER*/
+
+.row1{
+    display: flex;
+    width: 60%;
+    flex-direction: row-reverse;
+}
+
+.col-4{
+    width: calc(33.33% * 2) ;
+
+}
+.col-12{
+    width: 100%;
+}
+
+/*SECOND CONTAINER*/
 
 
+.row2{
+    display: flex;
+    width: 60%;
+    flex-direction:row
+}
+
+.col-4{
+    width: calc(33.33% * 2 ) ;
+
+}
+.col-12{
+    width: 100%;
+}
+
+/*THIRD CONTAINER*/
+
+.row1{
+    display: flex;
+    width: 60%;
+    flex-direction: row-reverse;
+}
+
+.col-4{
+    width: calc(33.33% * 2) ;
+
+}
+.col-12{
+    width: 100%;
+}
