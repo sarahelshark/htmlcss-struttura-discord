@@ -20,6 +20,10 @@ body{
 
 /*debug*/
 
+.debug .container{
+    background-color: red;
+}
+
 .debug .logo {
     border: 5px dotted rgb(50, 73, 205);
     width: 20%;
@@ -69,13 +73,18 @@ body{
     background-color: brown;
 }
 
+.debug .flex-container:nth-child(2){
+    background-color: orange;
+}
+
+.debug .flex-container:nth-child(4){
+    background-color: orange;
+}
 
 
 /*HEADER*/
 
-.container{
-    background-color: rgb(140, 208, 231);
-}
+
 
 .flex-container{
     display: flex;
@@ -144,16 +153,4 @@ body{
 
 /*THIRD CONTAINER*/
 
-.row1{
-    display: flex;
-    width: 60%;
-    flex-direction: row-reverse;
-}
 
-.col-4{
-    width: calc(33.33% * 2) ;
-
-}
-.col-12{
-    width: 100%;
-}
